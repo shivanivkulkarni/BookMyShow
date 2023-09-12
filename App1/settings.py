@@ -131,8 +131,8 @@ STATICFILES_DIRS = [
 
 
 AUTHENTICATION_BACKENDS = [
-    'App1.backends.SellerBackend',  # Replace 'path.to' with the actual path to your SellerBackend class
-    'App1.backends.BuyerBackend',
+    'App1.seller.sellerBackend.SellerBackend',  # Replace 'path.to' with the actual path to your SellerBackend class
+    'App1.buyer.buyerBackend.BuyerBackend',
     'django.contrib.auth.backends.ModelBackend',  # Keep the default ModelBackend
 ]
 
